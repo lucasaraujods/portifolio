@@ -1,0 +1,33 @@
+*{
+	box-sizing: border-box;
+	margin:0;
+	padding:0;
+	outline: 0;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+}
+/*inicio header*/
+.nav{
+    background-color: #181818;
+    height: 80px;
+    width: 100%;
+    display: flex;
+    justify-content: end;
+}
+.nav-list{
+    display: flex;
+    align-items: center;
+    list-style: none;
+    margin-right: 30px;
+}
+.nav-list a{
+    text-decoration: none;
+    color: white;
+    padding: 20px;
+}
+.nav-list a:hover{
+    background-color: rgb(46, 40, 40);
+    border-radius: 5px;
+}
+/*fim header*/

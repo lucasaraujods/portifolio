@@ -19,7 +19,7 @@ body{
     display: flex;
     align-items: center;
     list-style: none;
-    margin-right: 30px;
+    margin-right: 30px;     
 }
 .nav-list a{
     text-decoration: none;
@@ -31,3 +31,35 @@ body{
     border-radius: 5px;
 }
 /*fim header*/
+
+/*inicio main*/
+
+.main{
+    background-color: red;
+    height: calc(100vh - 80px);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 20px;
+    background-image: url(images/programador.png);
+}
+.main h1{
+    color: white;
+}
+.main p{
+    color: rgb(18, 110, 46);
+    font-size: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.butao{
+    cursor: pointer;
+    padding: 10px;
+    font-size: 20px;
+    border-radius: 5px;
+    border: 0;
+}
+.main a{
+    text-decoration: none;
+}
+

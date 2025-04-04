@@ -169,3 +169,55 @@ footer h2{
 footer p{
     margin-left: 9px;
 }
+/*responsividade*/
+/*depois da largura, ou seja, se passar de 1050 px, ela ja vai se atualizar com a resposividade, assim quando ele estiver menor que 1050 ele aplica o estilo de css abaixo*/
+@media (max-width: 1050px){
+    .main h1{
+        font-size: 45px;
+    }
+    .main p{
+        font-size: 18px;
+    }
+    .main{
+        background-size: cover;
+    }
+
+    /*sobre*/
+    .about{
+        flex-direction: column;
+        padding-top: 80px;
+        padding-left: 0;
+        padding-right: 0;
+        padding-bottom: 0;
+    }
+    .about div{
+        max-width: 80%;
+    }
+    .about div h2{
+        font-size: 45px;
+    }
+    .about img{
+        width: 80%;
+        margin-top: 30px;
+    }
+    /*fim sobre */ 
+
+    /*inicios projetos*/
+    .projects img{
+        width: 27.5%;
+    }
+    /*fim projeto*/
+
+    /*inicio footer*/
+    footer{
+        flex-direction: column;
+    }
+    footer p{
+        margin: 0;
+    }
+    footer h3{
+        font-size: 24px;
+        margin-bottom: 8px;
+    }
+    /*fim footer*/
+}

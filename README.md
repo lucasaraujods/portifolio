@@ -18,6 +18,3 @@ Foi desenvolvido com foco em boas práticas de semântica, acessibilidade e desi
 - HTML5
 - CSS3
 
-## 💻 Visualização
-
-Você pode acessar a versão online do portfól
